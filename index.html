@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTTP Request Visualizer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>HTTP Request Visualizer</h1>
+
+    <div class="controls">
+        <select id="method">
+            <option>GET</option>
+            <option>POST</option>
+        </select>
+        <input type="text" id="url" placeholder="Enter URL (e.g. https://httpbin.org/get)">
+        <button onclick="sendRequest()">Send</button>
+    </div>
+
+    <div class="panels">
+        <div class="panel">
+            <h2>Request</h2>
+            <div id="request-box"></div>
+        </div>
+        <div class="panel">
+            <h2>Response</h2>
+            <div id="response-box"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

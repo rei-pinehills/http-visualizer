@@ -1,0 +1,38 @@
+body{
+    font-family: sans-selif;
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+h1{
+    color: 333;
+}
+.controls{
+    display: flex;
+    gap: 8px;
+    margin-bottom: 20px;
+}
+select, input, button{
+    padding: 8px;
+    font-size: 16px;
+}
+input{
+    flex: 1;
+}
+button{
+    cursor: pointer;
+}
+.panels{
+    display: flex;
+    gap: 20px;
+}
+.panel{
+    flex: 1;
+    background: f4f4f4;
+    padding: 16px;
+    border-radius: 6px;
+}
+pre{
+    white-space: pre-wrap;
+    word-break: break-all;
+}
